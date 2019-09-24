@@ -1,0 +1,10 @@
+logging:
+  level:
+    org.kohsuke.github: trace
+
+management:
+  endpoints.web.exposure.include: '*'
+  endpoint:
+    shutdown:
+      enabled: true
+
